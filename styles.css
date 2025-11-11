@@ -1,0 +1,41 @@
+/* Dorbeautybar styles - pink & purple theme */
+:root{--pink:#ff5fa6;--purple:#8e44d3;--bg1:#fff0f6;--bg2:#f3e8ff;--accent:linear-gradient(90deg,var(--pink),var(--purple));--white:#fff;}
+*{box-sizing:border-box}body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;background:linear-gradient(180deg,var(--bg1),var(--bg2));color:#2b2b2b;}
+.container{max-width:1100px;margin:0 auto;padding:20px;}
+.header{background:transparent;padding-top:12px}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:56px;height:56px;border-radius:12px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:var(--white);font-weight:800;font-size:22px}
+.brand-text .name{font-weight:800;color:var(--purple)}.brand-text .tag{font-size:13px;color:#666}
+.nav{display:flex;gap:12px;align-items:center}
+.nav a{color:var(--purple);text-decoration:none;font-weight:700}
+.lang{background:transparent;border:1px solid rgba(0,0,0,0.06);padding:8px 12px;border-radius:12px;color:var(--purple);cursor:pointer}
+
+.hero{padding:34px 0}
+.hero-inner{display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:center}
+.hero-title{font-size:48px;margin:0;color:var(--purple);font-weight:900}
+.hero-sub{color:#444;margin-top:8px}
+.actions{margin-top:16px;display:flex;gap:12px}
+.btn{padding:12px 16px;border-radius:999px;text-decoration:none;font-weight:800;display:inline-block}
+.primary{background:var(--accent);color:var(--white)}
+.outline{border:2px solid rgba(139,35,170,0.08);color:var(--purple);background:transparent;padding:10px 14px;border-radius:12px}
+
+.section{padding:28px 0}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:16px}
+.service{background:var(--white);padding:16px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.05);border-top:6px solid rgba(255,95,166,0.12)}
+
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}
+.gallery-grid img{width:100%;height:160px;object-fit:cover;border-radius:10px;border:2px solid rgba(255,95,166,0.06)}
+
+.booking-actions{display:flex;gap:12px;align-items:center;margin-top:12px;flex-wrap:wrap}
+.whatsapp{background:#25D366;color:white;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:800}
+.call{background:transparent;border:2px solid rgba(0,0,0,0.06);padding:10px 16px;border-radius:10px;color:var(--purple);text-decoration:none;font-weight:700}
+
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+.card{background:var(--white);padding:16px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.05)}
+
+.map iframe{width:100%;height:260px;border-radius:10px;border:0}
+
+.footer{padding:22px 0;text-align:center;color:#444}
+
+/* responsive */
+@media(max-width:900px){.hero-inner{grid-template-columns:1fr}.gallery-grid{grid-template-columns:repeat(2,1fr)}.contact-grid{grid-template-columns:1fr}}

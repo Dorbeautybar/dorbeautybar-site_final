@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dorbeautybar — Güzellik, Manikür & Pedikür</title>
+  <meta name="description" content="Dorbeautybar: Manikür, Pedikür, Tırnak Sanatı. Rezervasyon WhatsApp üzerinden.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">D</div>
+        <div class="brand-text">
+          <div class="name">Dorbeautybar</div>
+          <div class="tag">Profesyonel Tırnak & Güzellik</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#anasayfa" data-i18n="nav.home">ANASAYFA</a>
+        <a href="#hizmetler" data-i18n="nav.services">HİZMETLER</a>
+        <a href="#galeri" data-i18n="nav.gallery">GALERİ</a>
+        <a href="#iletisim" data-i18n="nav.contact">İLETİŞİM</a>
+        <button id="langBtn" class="lang">ENGLISH</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="anasayfa" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1 class="hero-title">Dorbeautybar</h1>
+          <p class="hero-sub">Hayalinizdeki tırnaklara hijyenik ve sıcak bir ortamda kavuşun.</p>
+          <div class="actions">
+            <a class="btn primary" href="#rezervasyon" data-i18n="actions.book">Rezervasyon</a>
+            <a class="btn outline" href="#galeri" data-i18n="actions.gallery">Galeri</a>
+          </div>
+          <div class="quick-contact">
+            <div><strong>Adres:</strong> 100. Yıl Mah. Hülya Sokak 1/D, Çankaya / Ankara</div>
+            <div><strong>Telefon:</strong> <a href="tel:+905368673670">0536 867 36 70</a></div>
+            <div><strong>Instagram:</strong> <a href="https://www.instagram.com/Dorbeautybar" target="_blank">@Dorbeautybar</a></div>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img src="images/hero.jpg" alt="Dorbeautybar">
+        </div>
+      </div>
+    </section>
+
+    <section id="hizmetler" class="section services">
+      <div class="container">
+        <h2 data-i18n="services.title">Hizmetlerimiz</h2>
+        <div class="services-grid">
+          <div class="service">
+            <h3 data-i18n="services.manicure.title">Manikür</h3>
+            <p data-i18n="services.manicure.desc">Klasik ve kalıcı oje uygulamaları.</p>
+          </div>
+          <div class="service">
+            <h3 data-i18n="services.pedicure.title">Pedikür</h3>
+            <p data-i18n="services.pedicure.desc">Rahatlatıcı ve estetik pedikür bakımları.</p>
+          </div>
+          <div class="service">
+            <h3 data-i18n="services.gel.title">Jel & Akrilik</h3>
+            <p data-i18n="services.gel.desc">Doğal görünümlü uzun ömürlü uygulamalar.</p>
+          </div>
+          <div class="service">
+            <h3 data-i18n="services.art.title">Tırnak Sanatı</h3>
+            <p data-i18n="services.art.desc">Özel tasarım ve sezon trendleri.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri" class="section gallery">
+      <div class="container">
+        <h2 data-i18n="gallery.title">Galeri</h2>
+        <p class="muted" data-i18n="gallery.desc">Örnek çalışmalar — kendi fotoğraflarınızı eklemek için images klasörünü güncelleyin.</p>
+        <div class="gallery-grid">
+          <img src="images/thumb1.jpg" alt="g1">
+          <img src="images/thumb2.jpg" alt="g2">
+          <img src="images/thumb3.jpg" alt="g3">
+          <img src="images/thumb4.jpg" alt="g4">
+        </div>
+      </div>
+    </section>
+
+    <section id="rezervasyon" class="section booking">
+      <div class="container">
+        <h2 data-i18n="booking.title">Randevu & WhatsApp</h2>
+        <p class="muted">Rezervasyonlar WhatsApp üzerinden kolayca yapılır. Aşağıdaki butona tıklayarak bize mesaj gönderin.</p>
+        <div class="booking-actions">
+          <!-- WhatsApp link; message prefilled -->
+          <a class="btn whatsapp" href="https://wa.me/905368673670?text=Merhaba%20Dorbeautybar,%20randevu%20almak%20istiyorum." target="_blank">WhatsApp ile Randevu Al</a>
+          <a class="btn call" href="tel:+905368673670">Şimdi Ara</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="iletisim" class="section contact">
+      <div class="container">
+        <h2 data-i18n="contact.title">İletişim & Konum</h2>
+        <div class="contact-grid">
+          <div class="contact-card card">
+            <p><strong>Adres:</strong><br>100. Yıl Mah. Hülya Sokak 1/D, Çankaya / Ankara</p>
+            <p><strong>Telefon:</strong> <a href="tel:+905368673670">0536 867 36 70</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/Dorbeautybar" target="_blank">@Dorbeautybar</a></p>
+          </div>
+          <div class="map card">
+            <!-- Replace src with your Google Maps embed after deployment -->
+            <iframe src="https://www.google.com/maps/embed?pb=" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div>© <span id="year"></span> Dorbeautybar. Tüm hakları saklıdır.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
